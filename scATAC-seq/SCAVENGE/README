@@ -1,0 +1,16 @@
+# Steps for the enrichment and scoring cells 
+
+TRAIT ENRICHMENT OF CELL TYPES IN scATAC-seq DATASET 
+
+initial.scavenge.run.r : This helps get the network propagation scores and the seed cells for the reference(biologically meaningful) run, the input is the cell by peak matrix in summarized object format and the variant bed files 
+
+permuted.random.runs.scavenge.r: Get the scores for each random run, where the seed cells are selected from a random sampling while preserving the degree distribution of the original set. The scores from this script can be colasced into a p-value , based on the number of times a cell was scored higher in the random runs over the reference run. 
+
+
+SCORING OF INDIVIDUAL CELLS BY NETWORK PROPAGATION 
+
+scavenge.per.cell.score.r : The input will be the cell by peak matrx in the summarized experiment format and the trait associated variants bed file. the output will be the meta file with the scores as well as other relevant information for each cell. 
+
+
+
+ 
