@@ -1,14 +1,14 @@
 ##### DATA DESCRIPTION #####
 
-1. trait_bed_files/ : The directory contains the bed files for the different SNP classes as described in the study for the two COVID-19 illness associated phenoypes: Hospitalization and Severe respiratory illness 
+2. scATAC: The datasets for running with the SCAVENGE related scripts
+        2.1 SCAVENGE:
+                2.1.1. trait_enrichment: the r object for the summarised experiment for the COVID-19 PBMCs for finding COVID-19 associated trait enrichment in different cell types
+                2.1.2. scoring: the r object for the summarised experiment for cell type score comparison across the SNP classes after running SCAVENGE
+
+	2.2. trait_bed_files/ : The directory contains the bed files for the different SNP classes as described in the study for the two COVID-19 illness associated phenoypes: Hospitalization and Severe respiratory illness 
 Abbreviations are described below:
 	gws: genome wide siginficant - SNPs selected at the p-value threshold 5 x 10^-8 
 	interface: Interface SNPs selected at p<0.001 
 	negcontrols: SNPs selected at p>0.1 
 	not.interface: SNPs selected at p<0.001 away from the structural interfaces of PPIs 
 
-2. scATAC: The datasets for running with the SCAVENGE related scripts 
-	2.1 SCAVENGE:
-		2.1.1. trait_enrichment: the r object for the summarised experiment for the COVID-19 PBMCs for finding COVID-19 associated trait enrichment in different cell types 
-		2.1.2. scoring: the r object for the summarised experiment for cell type score comparison across the SNP classes after running SCAVENGE 
- 
