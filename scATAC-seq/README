@@ -1,8 +1,0 @@
-SCRIPTS TO PERFORM THE ANALYSIS DESCRIBED IN THE PAPER 
-
-Data processing: The scripts for selecting variants and finding the interface variants using bisque and interactomeInsider 
-
-
-scRNA-seq: The scripts for integrating variant information with scRNA-seq data to find disease associated cell types 
-
-SCAVENGE: The scripts for integrating variant information with scATAC-seq data to find disease associated cell types
