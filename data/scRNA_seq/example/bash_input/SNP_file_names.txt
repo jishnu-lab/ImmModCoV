@@ -1,0 +1,4 @@
+SNP_dataset.gws.snps.scored.txt
+SNP_dataset.not.interface.snps.scored.txt
+SNP_dataset.neg.snps.scored.txt
+SNP_dataset.interface.snps.scored.txt
